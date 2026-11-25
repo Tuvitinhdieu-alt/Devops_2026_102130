@@ -1,0 +1,18 @@
+# Thư mục thư viện Node.js (tuyệt đối không push)
+node_modules/
+
+# File biến môi trường chứa JWT_SECRET và mật khẩu
+.env
+.env.local
+.env.*.local
+
+# Thư mục build sản phẩm tĩnh của Frontend
+frontend/dist/
+frontend/build/
+
+# File log và file tạm của hệ điều hành / IDE
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+.vscode/
